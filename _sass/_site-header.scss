@@ -1,5 +1,4 @@
 .header {
-  z-index: -30;
 }
 
 .site-header {
@@ -8,6 +7,7 @@
     width: 100%;
     position: fixed;
     bottom: 7%;
+    z-index: 100;
     a {
       color: $text-color;
       text-decoration: none;
@@ -86,7 +86,6 @@ a.page-link {
 .site-meta {
   height: 100vh;
   position: relative;
-  overflow: hidden;
   z-index: 20;
   @include media-query($on-palm) {
     display: block;
