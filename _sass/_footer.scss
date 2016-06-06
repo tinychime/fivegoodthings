@@ -10,6 +10,18 @@ z-index: -30;
   font-size: .8em;
   line-height: 1em;
   font-weight: 500;
+  a {
+    border-bottom: #000 solid 3px;
+    color: #000;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+    padding: 0 0 2px 0;
+    &:hover {
+      text-decoration: none;
+      border-color: #001AFF;
+      color: #001AFF;
+    }
+  }
   h3 {
     font-size: 1em;
     font-weight: 500;
@@ -33,7 +45,7 @@ z-index: -30;
   text-align: center;
   font-size: 2.3em;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 600px;
   line-height: 1.4em;
 }
 
