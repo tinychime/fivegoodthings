@@ -4,8 +4,6 @@ email:
 description:
 baseurl: "/fivegoodthings" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-twitter_username: sssubterranea
-github_username:  joshosbrn
 
 # Build settings
 markdown: kramdown
