@@ -4,17 +4,17 @@
 
 .site-header {
     font-size: 1.7em;
-    z-index: 10;
     text-align: center;
     width: 100%;
     position: fixed;
-    height: 100%;
+    bottom: 7%;
     a {
       color: $text-color;
       text-decoration: none;
     }
 
     @include media-query($on-palm) {
+      position: absolute;
     }
 
     // Positioning context for the mobile navigation icon
@@ -86,7 +86,7 @@ a.page-link {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  z-index: 100;
+  z-index: 20;
   @include media-query($on-palm) {
     display: block;
   }
@@ -94,6 +94,14 @@ a.page-link {
 
 .email {
   margin: 30px 0 20px 0;
+  @include media-query($on-palm) {
+    margin: 30px 10px;
+    position: relative;
+    font-size: .8em;
+  }
+  input {
+    max-width: 80%;
+  }
 }
 
 .orb {
@@ -141,9 +149,8 @@ a.page-link {
   text-align: center;
   line-height: 1.3em;
   position: relative;
-  top: 40%;
+  top: 20%;
   font-weight: 500;
-  transform: translateY(-50%);
   margin: 0 auto;
   p {
     max-width: 600px;
@@ -155,9 +162,18 @@ a.page-link {
     margin-bottom: 50px;
   }
   @include media-query($on-palm) {
-      margin: 0 auto;
-      max-width: 90%;
-      font-size: 2.5em;
+    margin: 60px auto;
+    max-width: 80%;
+    font-size: 2.5em;
+    top: 0;
+    p {
+      font-size: .6em;
+      line-height: 1.3em;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 25px;
+    }
   }
 }
 
@@ -210,14 +226,16 @@ a.page-link {
 .nav-item {
   font-family: "eskapade-fraktur";
   font-weight: 400;
+  z-index: 80;
   font-size: 1.5em;
   position: absolute;
   -webkit-transition: all .4s;
   transition: all .4s;
   border-bottom: 2px solid #fff;
-  &:hover {
-    transform: scale(1.1);
-    border-bottom: 2px solid #de3333;
+  @include media-query($on-palm) {
+    position: relative;
+    text-align: center;
+    left: 0;
   }
   a {
     font-family: $accent-font;
