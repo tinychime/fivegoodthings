@@ -126,7 +126,9 @@ a.page-link {
   -webkit-transition: all .3s;
   transition: all .3s;
   padding: 10px 0;
+  margin: 5px auto 0 auto;
   border-bottom: 3px solid #fff;
+  display: block;
   &:hover {
     transform: scale(1.05);
     border-bottom: 3px solid #001AFF;
