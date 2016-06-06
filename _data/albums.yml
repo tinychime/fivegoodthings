@@ -1,0 +1,359 @@
+# - title:
+#   artist:
+#   art: /images/blue-ill-albums.svg
+#   date:
+#   link:
+
+- title: Breathing Cold
+  artist: Night Idea
+  art: /images/night-idea-breathing.jpg
+  date: March 25, 2016
+  link: https://nightidea.bandcamp.com/album/breathing-cold
+
+- title: We'll Be Alright
+  artist: Fight Cloud
+  art: /images/fight-cloud-alright.jpg
+  date: February 29, 2016
+  link: https://fightcloud.bandcamp.com/album/well-be-alright
+
+- title: Rings+Drifters
+  artist: Basmati
+  art: /images/basmati-rings.jpg
+  date: October 15, 2015
+  link: https://basmatilovesyou.bandcamp.com/album/rings-drifters
+
+- title: Lounge All Arounge
+  artist: 8t88
+  art: /images/8t88-lounge.jpg
+  date: October 1, 2015
+  link: https://8t88.bandcamp.com/album/lounge-all-arounge-2
+
+- title: Horse EP
+  artist: Recluse Raccoon
+  art: /images/recluse-horse.jpg
+  date: September 16, 2015
+  link: https://recluseraccoon.bandcamp.com/album/horse-ep
+
+- title: 7HiCool
+  artist: We Never
+  art: /images/wenever-7hicool.jpg
+  date: September 3, 2015
+  link: https://carterpillar.bandcamp.com/album/7hicool
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-05.jpg
+#   date:
+#   link:
+
+- title: Split
+  artist: Young Scum / Reporters
+  art: /images/ys-rep-split.jpg
+  date: August 7, 2015
+  link: https://youngscum.bandcamp.com/album/young-scum-reporters-split
+
+- title: Split
+  artist: Young Scum / Shrunk
+  art: /images/ys-sh-split.jpg
+  date: June 16, 2015
+  link: https://youngscum.bandcamp.com/album/young-scum-shrunk-split
+
+- title: Subterranea Collective Sampler vol. II
+  artist: Collective
+  art: /images/sub-volume2.jpg
+  date: April 12, 2015
+  link: https://subterranea.bandcamp.com/album/subterranea-collective-sampler-vol-ii
+
+- title: demos
+  artist: Antiphons
+  art: /images/antiphons-demos.jpg
+  date: April 23, 2015
+  link: https://antiphons.bandcamp.com/
+
+# - title:
+#   artist:
+#   art: /images/red-ill.svg
+#   date:
+#   link:
+
+- title: Wool Tunnel
+  artist: Hue
+  art: /images/hue-wool.jpg
+  date: March 8, 2015
+  link: https://hueeee.bandcamp.com/album/wool-tunnel
+
+- title: Autumn August
+  artist: Young Scum
+  art: /images/autumn-youngscum.jpg
+  date: February 26, 2015
+  link: https://youngscum.bandcamp.com/album/autumn-august
+
+- title: Boys Again
+  artist: Hue
+  art: /images/hue-boys.jpg
+  date: February 2, 2015
+  link: https://hueeee.bandcamp.com/album/boys-again
+
+- title: Where's My Shakespeare
+  artist: Fight Cloud / Houdan The Mystic
+  art: /images/fc-ni-shakespeare.jpg
+  date: December 9, 2014
+  link: https://houdanthemystic.bandcamp.com/album/wheres-my-shakespeare-2
+
+- title: BAZ
+  artist: Basmati
+  art: /images/basmati-baz.jpg
+  date: November 16, 2014
+  link: https://basmatilovesyou.bandcamp.com/album/baz
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-03.jpg
+#   date:
+#   link:
+
+- title: Basic
+  artist: Hue
+  art: /images/hue-basic.jpg
+  date: October 5, 2014
+  link: https://hueeee.bandcamp.com/track/basic
+
+- title: Spirit Dive
+  artist: Lotus Grid
+  art: /images/lotus-grid-spirit.jpg
+  date: September 16, 2014
+  link: https://lotusgrid.bandcamp.com/album/spirit-dive
+
+- title: Haste Fully
+  artist: Hematoma
+  art: /images/hematoma-hastefully.jpg
+  date: August 15, 2014
+  link: https://hematomasongs.bandcamp.com/album/haste-fully
+
+- title: LIVE AT RNH
+  artist: Young Scum
+  art: /images/youngscum-live.jpg
+  date: June 14, 2014
+  link: https://youngscum.bandcamp.com/album/live-at-rnh
+
+- title: Between the Two Volume 04
+  artist: J. Morgan / YNICORNS
+  art: /images/sub-between4.jpg
+  date: May 30, 2014
+  link: https://subterranea.bandcamp.com/album/between-the-two-volume-04-j-morgan-ynicorns
+
+- title: Between the Two Volume 03
+  artist: Hematoma / Antiphons
+  art: /images/sub-between3.jpg
+  date: May 16, 2014
+  link: https://subterranea.bandcamp.com/album/between-the-two-volume-03-hematoma-antiphons
+
+- title: Between the Two Volume 02
+  artist: WAYSOF / Fight Cloud
+  art: /images/sub-between2.jpg
+  date: May 02, 2014
+  link: https://subterranea.bandcamp.com/album/between-the-two-volume-01-lotus-grid-tigerlamp
+
+- title: Between the Two Volume 01
+  artist: Lotus Grid / Tigerlamp
+  art: /images/sub-between1.jpg
+  date: March 28, 2014
+  link: https://subterranea.bandcamp.com/album/between-the-two-volume-02-waysof-fight-cloud
+
+- title: Painterly Strokes
+  artist: Freaky J and the Bears
+  art: /images/ftjb-painterly.jpg
+  date: March 1, 2014
+  link: https://freakyjandthebears.bandcamp.com/album/painterly-strokes
+
+- title:
+  artist:
+  art: /images/planets/planet-04.jpg
+  date:
+  link:
+
+- title: Simple Structures
+  artist: Fight Cloud
+  art: /images/fight-cloud-simple.jpg
+  date: November 5, 2013
+  link: https://fightcloud.bandcamp.com/album/simple-structures
+
+- title: Object Abandon
+  artist: We Never
+  art: /images/wenever-object.jpg
+  date: June 20, 2013
+  link: https://carterpillar.bandcamp.com/album/object-abandon-2
+
+- title: Paths
+  artist: Night Idea
+  art: /images/night-idea-paths.jpg
+  date: May 31, 2013
+  link: https://nightidea.bandcamp.com/album/paths
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-10.jpg
+#   date:
+#   link:
+
+- title: Nectar
+  artist: Basmati
+  art: /images/basmati-nectar.jpg
+  date: May 1, 2013
+  link: https://basmatilovesyou.bandcamp.com/album/nectar
+
+- title: Reading A Dream
+  artist: We Never
+  art: /images/wenever-reading.jpg
+  date: April 23, 2013
+  link: https://carterpillar.bandcamp.com/album/reading-a-dream
+
+- title: Calico/Kachina
+  artist: Basmati
+  art: /images/basmati-calico.jpg
+  date: April 10, 2013
+  link: https://basmatilovesyou.bandcamp.com/album/calico-kachina
+
+- title: Take Root
+  artist: Brother Rutherford
+  art: /images/rutherford-takeroot.jpg
+  date: March 30, 2013
+  link: https://brotherrutherford.bandcamp.com
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-05.jpg
+#   date:
+#   link:
+
+- title: Sick/Raw
+  artist: Basmati
+  art: /images/basmati-sick.jpg
+  date: March 7, 2013
+  link: https://basmatilovesyou.bandcamp.com/album/sick-raw
+
+- title: Songs From The West Garden
+  artist: Lotus Grid
+  art: /images/lotus-grid-west-garden.jpg
+  date: March 3, 2013
+  link: https://lotusgrid.bandcamp.com/album/songs-from-the-west-garden
+
+- title: Kulektiv
+  artist: Lotus Grid
+  art: /images/lotus-grid-kulektiv.jpg
+  date: January 21, 2013
+  link: https://lotusgrid.bandcamp.com/album/kulektiv
+
+- title: Skies Would Fight​/​Mountain Tops Would Claw Us Over
+  artist: Basmati
+  art: /images/basmati-mountains.jpg
+  date: February 25, 2013
+  link: https://basmatilovesyou.bandcamp.com/album/skies-would-fight-mountain-tops-would-claw-us-over
+
+- title:
+  artist:
+  art: /images/planets/planet-06.jpg
+  date:
+  link:
+
+- title: Person, Place or Thing
+  artist: Way, Shape or Form
+  art: /images/waysof-ppot.jpg
+  date: September 29, 2012
+  link: https://wayshapeorform.bandcamp.com/album/person-place-or-thing
+
+- title: Little Place
+  artist: Lotus Grid
+  art: /images/lotus-grid-place.jpg
+  date: September 9, 2012
+  link: https://lotusgrid.bandcamp.com/album/little-place
+
+- title: EP2
+  artist: Way, Shape or Form
+  art: /images/waysof-ep2.jpg
+  date: August 29, 2012
+  link: https://wayshapeorform.bandcamp.com/album/ep2
+
+- title: In Augment
+  artist: Fight Cloud
+  art: /images/fight-cloud-augment.jpg
+  date: August 14, 2012
+  link: https://fightcloud.bandcamp.com/album/in-augment
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-07.jpg
+#   date:
+#   link:
+
+- title: Commune Remixes
+  artist: Phantoms & Friends
+  art: /images/phantoms-commune.jpg
+  date: August 31, 2012
+  link: https://phantomss.bandcamp.com/album/commune
+
+- title: Good Friends In My Head
+  artist: Tigerlamp
+  art: /images/tigerlamp-friends.jpg
+  date: April 23, 2012
+  link: https://tigerlamp.bandcamp.com
+
+- title: Subterranea Collective Sampler Vol. I
+  artist: Collective
+  art: /images/sub-volume1.jpg
+  date: April 6, 2012
+  link: https://subterranea.bandcamp.com/album/the-subterranea-collective-sampler-volume-one
+
+- title:
+  artist:
+  art: /images/planets/planet-02.jpg
+  date:
+  link:
+
+- title: Acquire The Feel
+  artist: 8t88
+  art: /images/8t88-acquire.jpg
+  date: March 1, 2012
+  link: https://8t88.bandcamp.com/album/acquire-the-feel-ep
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-08.jpg
+#   date:
+#   link:
+
+- title: Archer's Jamboree
+  artist: Houdan The Mystic
+  art: /images/houdan-archers.jpg
+  date: February 9, 2012
+  link: https://houdanthemystic.bandcamp.com/album/archers-jamboree
+
+- title: Morning Compositions
+  artist: Phantoms & Lotus Grid
+  art: /images/ph-lg-morning.jpg
+  date: January 15, 2012
+  link: https://phantomss.bandcamp.com/album/morning-compositions
+
+- title: Tempa Bloom
+  artist: Lotus Grid
+  art: /images/lotus-tempa.jpg
+  date: November 11, 2011
+  link: https://lotusgrid.bandcamp.com/album/tempa-bloom
+
+- title: Ocho The Cat
+  artist: Night Idea
+  art: /images/night-idea-ocho.jpg
+  date: October 1, 2011
+  link: https://nightidea.bandcamp.com/album/ocho-the-cat-demos
+
+# - title:
+#   artist:
+#   art: /images/planets/planet-01.jpg
+#   date:
+#   link:
+
+- title: Sea Prism
+  artist: Phantoms
+  art: /images/phantoms-seaprism.jpg
+  date: November 1, 2011
+  link: https://phantomss.bandcamp.com/album/sea-prism

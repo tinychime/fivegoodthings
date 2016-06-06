@@ -1,0 +1,134 @@
+.page-wrapper {
+  background: linear-gradient(to bottom, #ffffff 0%, rgba(#6C30FF, 0.29) 100%);
+}
+
+.shows-list {
+  margin: 100px 0 0 0;
+  width: calc(((100% / 3) * 1) - (50px / (3 / 2)));
+  margin-right: 50px;
+  float: left;
+  display: none;
+}
+
+.bands {
+  max-width: 1000px;
+  margin: 200px auto;
+  z-index: 20;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+.band-list {
+  font-size: 3em;
+  line-height: 2em;
+  span {
+    white-space:nowrap;
+  }
+  a {
+    color: #000;
+    border-bottom: 2px #000 solid;
+    padding: 10px 20px;
+    margin: 0 3px;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+    &:hover {
+      text-decoration: none;
+      background: #000;
+      color: #fff;
+    }
+  }
+}
+
+.container {
+  overflow: auto;
+  padding-bottom: 100px;
+  @include media-query($on-palm) {
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: 5%;
+    margin: 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+    z-index: -25;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin: 0 auto;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+    p {
+      margin: 35px 0;
+    }
+
+    img {
+      margin: 20px 0;
+    }
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.site-footer {
+
+}
+
+.footer {
+  margin: 0 auto 5% auto;
+  z-index: 30;
+  padding: 0 5% 5% 5%;
+  z-index: 30;
+  position: relative;
+  min-height: 100%;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 500;
+  h3 {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .column {
+    width: calc(((100% / 3) * 1) - (50px / (3 / 2)));
+    margin-right: 50px;
+    float: left;
+    a {
+    }
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+.footer-desc {
+  text-align: center;
+  font-size: 2.3em;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.4em;
+}
+
+.footer-social {
+}

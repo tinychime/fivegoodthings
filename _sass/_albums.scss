@@ -1,0 +1,60 @@
+.album-info {
+  -webkit-transition: .4s all;
+  transition: .4s all;
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.album {
+  list-style-type: none;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  z-index: 100;
+  margin: 50px auto 0 auto;
+  .art {
+    width: 100%;
+  }
+  .name {
+    font-family: $base-font-family;
+    margin: 20px 0 2px 0;
+    font-size: 1.6em;
+    line-height: 1.3em;
+    color: #000;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+  }
+  .byline {
+    font-size: 1em;
+    a {
+      color: #000;
+    }
+    .band {
+      font-weight: 700;
+    }
+  }
+}
+
+.wrapper {
+  margin-bottom: 2rem;
+  width: calc(((100% / 3) * 1) - (50px / (3 / 2)));
+  margin-right: 50px;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  // min-height: 400px;
+  a {
+    text-decoration: none;
+  }
+  @include media-query($on-palm) {
+      display: block;
+      width: 90%;
+      margin: 0 auto 2rem auto;
+      &:nth-child(3n) {
+        margin: 0 auto 2rem auto;
+      }
+  }
+}

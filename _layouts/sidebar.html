@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="post-sidebar">
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+
+<div class="sidebar">
+  {% for link in site.data.links %}
+    <li>
+        <a class="link" href="{{ link.link }}">{{ link.title }}</a>
+    </li>
+    <div class="clear"></div>
+  {% endfor %}
+</div>
