@@ -14,7 +14,8 @@
     }
 
     @include media-query($on-palm) {
-      position: absolute;
+      position: relative;
+      margin: 100px 0 0 0;
     }
 
     // Positioning context for the mobile navigation icon
@@ -153,7 +154,7 @@ a.page-link {
   font-weight: 500;
   margin: 0 auto;
   p {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto 15px auto;
   }
   h2 {
@@ -242,7 +243,7 @@ a.page-link {
     -webkit-transition: all .4s;
     transition: all .4s;
     &:hover {
-      color: #de3333;
+      color: #001AFF;
     }
   }
 }
