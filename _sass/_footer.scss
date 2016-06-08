@@ -8,8 +8,12 @@ z-index: -30;
   display: relative;
   text-align: center;
   li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
+    @include media-query($on-palm) {
+      display: block;
+      margin: 40px 0;
+    }
     a {
       padding: 5px;
     }
@@ -61,6 +65,9 @@ z-index: -30;
   margin: 0 auto;
   max-width: 600px;
   line-height: 1.4em;
+  @include media-query($on-palm) {
+    max-width: 80%;
+  }
 }
 
 .footer-social {
