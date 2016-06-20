@@ -3,17 +3,13 @@
 
   {% include head.html %}
 
-  <body class="post-body">
+  <body>
+    <script>document.body.className += ' fade-out';</script>
     <div class="container">
-      {% include header.html %}
-
       <div class="page-content">
-        <div class="wrapper">
           {{ content }}
-        </div>
       </div>
 
-      {% include footer.html %}
     </div>
   </body>
 
