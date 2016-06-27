@@ -1,0 +1,60 @@
+---
+title:  "Issue 2: Extremely Dumb & Devastatingly Accurate"
+byline: "Josh Osborne"
+display-date: "6/26/2016"
+---
+I’m nervous. Lot’s of pressure for the second issue. Thankfully I can report that Five Good Things Issue #1 was a gigantic and unparalleled success. I don’t have the data or testimony to back that up, but I ask that you take me at my word. Truthfully, the thought of sending an email full of my thoughts and feelings every week to a big group of people is a little bit terrifying. On Tuesday of this week I almost compulsively lit my computer on fire to dispose of the subscriber list and be done with it.  Unfortunately my IT Department tells me that wont do the job, so here we are.
+
+The word has begun to spread since I sent the first issue of Five Good Things last week. I ran a [somewhat misguided Twitter campaign](http://fivegoodthings.cmail19.com/t/d-l-tklkgl-hultudjhl-r/ "a screenshot of my bad Twitter campaign") for new subscribers, printed a [large quantity of Five Good Things flyers](http://fivegoodthings.cmail19.com/t/d-l-tklkgl-hultudjhl-y/ "Instagram photo of a wrinkled Five Good Things flyer in bright yellow") punx style at Kinko’s to leave in bathrooms and nail salons across the globe, and our subscriber list (that’s you) nearly doubled. Good thing; if I can’t sell this list of email addresses for a small fortune by this time next year, my casino-helicopter startup is never going to get off of the ground (LOL).
+
+Ok, enough of that. Let’s get started:
+
+[Go listen to Puberty 2 on Bandcamp now →](https://mitski.bandcamp.com/album/puberty-2 "Puberty 2 by Mitski on Bandcamp")
+
+### 1. Values ☯
+
+I know what you're thinking; "Hey, values are for nerds!!! I didn't sign up for this nerd shit!" You know, normally I would agree, but after seeing how quickly a community can materialize around a non-existent idea, I can't help but think ahead to the future of Five Good Things. As our little congregation grows larger and I start to try bigger & better (read: dumber & more expensive) things, I think we should establish some guiding principles to keep us all honest. I've talked a little bit about my plan to invite guest writers to contribute to Five Good Things and that’s coming soon. Guidelines will be helpful as I start to invite others to contribute, and will be important for me to keep in mind as I write and organize each issue.
+
+Last week I started drafting a list of values for myself and my contributors to follow. As it turns out, in order to create a document of rules and regulations that actually makes sense to anyone, you have to know how to write. In case it wasn’t already obvious, I’m kind of making this up as I go. In a moment of panic/embarrassment, I remembered coming across an open source code of conduct called the [Contributor Covenant](http://contributor-covenant.org/ "contributor-covenant.org"). Coraline Ada Ehmke is Ruby programmer and she created Contributor Covenant as a starting point for open source software projects to establish community guidelines. I’ve adopted and edited the most recent version of Contributor Covenant to fit our needs. Just like Five Good Things itself, this document is open for discussion.
+
+Our Code of Conduct will change in big and small ways over time. I’ll make sure to keep y’all updated with any important changes. For small ones, make sure to follow @five_goodthings on Twitter. For now, our Code of Conduct will live on the Five Good Things Github Page. This is a place where I manage and track the development of [fivegoodthings.club](http://fivegoodthings.club "the Five Good Things website"), and is version controlled so a running list of changes with corresponding version numbers is included by design.
+
+[Check out the Code of Conduct our Github Page](https://github.com/tinychime/fivegoodthings/blob/master/values.md "our draft code of conduct on Github")
+
+
+### 2. Sad Music ♬
+
+Earlier this month, I traded in my long-standing Bandcamp preorder voucher for Puberty 2, Mitski’s fourth and newest album. I’ve been looking forward to this record since I discovered Bury Me at Makeout Creek about a year later than everyone else. After absolutely falling in love with Makeout Creek last year, getting a chance to see her [perform at the Tiny Desk](https://www.youtube.com/watch?v=Qw6ybLQxEGw "Mitski's 2015 Tiny Desk Concert Performance on Youtube") and then later with her full band in DC, I was hooked. I spent months listening to Makeout Creek on repeat and I was ready to have my life completely ruined by a new Mitski album. Puberty 2 didn’t disappoint. Never has Mitski’s sense for weaving a gorgeous melody through a muddy chaos of layered guitar & bass felt more comfortable and elegant. Mitski’s songs, those from Puberty 2 in particular, personify triumph over sadness. Where her predecessors have succeeded at bringing sadness to life, she gives it existence and then strikes it down to the loud tune of victory. Puberty 2 is alive with the prospect of joy.
+
+Previous material from Mitski has touched on unstable relationships & struggles with her identity as an Asian-American woman. She captures both of those ideas here beautifully on the first single, Your Best American Girl. “You’re the sun, you’ve never seen the night but you’ve heard it’s song from the morning birds. Well I'm not the moon, I'm not even a star, but awake at night I'll be singing to the birds,” she sings. You can hear a mix of sorrow and reluctant hope in Mistki’s voice throughout Puberty 2. “... you're an all-American boy, I guess I couldn't help trying to be the best American girl. Your mother wouldn't approve of how my mother raised me. But I do, I think do.”
+
+Drake may have dominated the first half of 2016 with his relatable brooding and general meme-ablility, but it’s time for a change of guard. The new voice of sadness in 2016 & beyond is Mitski Miyawaki. Enjoy it and keep on cryin’ y’all.
+
+[Go listen to Puberty 2 on Bandcamp now →](https://mitski.bandcamp.com/album/puberty-2 "Puberty 2 by Mitski on Bandcamp")
+
+### 3. Japanese Breakfast
+
+Lucky Peach is The Best Thing on the Internet™. If you love food & design, I urge you to subscribe to their print magazine. It's full of amazing stories about food & how it affects people's lives. I bought my mother a subscription for Christmas and she tells me she likes it very much.
+
+This feature from the web team at Lucky Peach is as stunning & touching as anything I've read in the print version. I don't think I should set it up; [just read on](http://luckypeach.com/breakfast-at-dennys/ "Luckypeach.com").
+
+
+### 4. Tiny Improv Comedy
+
+Yes! After a ~4 year hiatus, Mike O'Brien has returned with new episodes of his improvised interview series, 7 Minutes In Heaven. I’ve greatly missed this show. Comedy fans might recognize O’Brien from his 7 season stint as a writer on SNL, and one season as a featured player. He’s painfully awkward, incredibly funny and seems much more comfortable performing here than he did during his year performing on SNL. Part of what’s so wonderful about 7 Minutes In Heaven is it’s binge-worthiness, so I’ll leave you with the list of episodes:
+
+[Check out 7 Minutes In Heaven on Youtube →](https://www.youtube.com/playlist?list=PLD8979137EF19CD7A "7 Minutes In Heaven on Youtube")
+
+### 5. Free Rap $$$
+
+Letterracer, a young record label and art collective from NYC have teamed up with Bit Torrent to give you a bunch of *absolutely free* Rap Music. Ratking’s excellent 2015 EP 700 Fill, de-facto Ratking leader Wiki’s 2016 album Lil Me, and SMTB EP a release from NYC hardcore band Show Me The Body. There are also a few b-sides that are new to me as well as some music videos. I saw Ratking & Show Me The Body perform in DC last year and was totally blown away. Enjoy it.
+
+[Download it for free from Bit Torrent right now →](https://now.bt.co/bundles/letter-racer "Letter Racer's Bit Torrent Bundle")
+
+### We Did It Again
+
+Does this email answer all of the open questions in your life? Do you feel that it one day might? [Tell your network](https://twitter.com/intent/tweet?text=Insert%20your%20message%20of%20devotion%20and%20appreciation%20here.%20%40five_goodthings%20fivegoodthings.club&source=clicktotweet&related=clicktotweet "Click this link to send a tweet of gratitude and loyalty")!!
+
+Better yet: Go to your nearest Kinko’s, hand them an amount of money appropriate for your income and local cost of living, and tell them you want as many copies of [this PDF file](http://fivegoodthings.club/images/email/handbill.pdf "a flyer for you to plaster across the wall of your high school") as possible printed on the most obnoxious color of paper they cary. Then, go throw a handful of them up in the air in a Public Place. Please send photo evidence of your removal and subsequent arrest to enter for a chance to win a shoutout in next week’s email. I promise the prizes will get better once someone buys this damn list.
+
+— Josh
