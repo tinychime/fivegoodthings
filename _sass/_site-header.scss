@@ -1,23 +1,5 @@
 .header {
-}
-
-.site-header {
-    font-size: 1.7em;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 7%;
-    z-index: 100;
-    a {
-      color: $text-color;
-      text-decoration: none;
-    }
-
-    @include media-query($on-palm) {
-      position: relative;
-      margin: 100px 0 0 0;
-    }
-
+  padding: 7%;
 }
 
 a.page-link {
@@ -51,9 +33,9 @@ a.page-link {
     }
 }
 
-.sub-logo {
-  max-width: 100px;
-  margin: 20px 0 0 0;
+.logo {
+  max-width: 50px;
+  margin: 0 0 60px 0;
 }
 
 .home-image {
@@ -68,7 +50,7 @@ a.page-link {
   font-size: 2em;
   border-bottom: 3px #000 solid;
   padding: 1px 6px;
-  text-align: center;
+  text-align: left;
   position: relative;
   -webkit-transition: all .4s;
   transition: all .4s;
@@ -99,7 +81,11 @@ a.page-link {
     font-size: .8em;
   }
   input {
-    max-width: 80%;
+    display: inline;
+    float: left;
+    opacity: 1;
+    font-weight: bold;
+    margin-right: 30px;
   }
 }
 
@@ -110,9 +96,8 @@ a.page-link {
 
 .email-input {
   border: 3px solid #000;
+  font-size: 1.8em;
   padding: .6em;
-  font-size: 1em;
-  font-weight: 400;
   margin: 0 0 20px 0;
   -webkit-transition: .3s all;
   transition: .3s all;
@@ -126,16 +111,15 @@ a.page-link {
 }
 
 .submit {
+  font-size: 1.8em;
   border: 0;
+  margin: 7px 0 0 0;
   background: none;
-  font-size: 1em;
   cursor: pointer;
   -webkit-transition: all .3s;
   transition: all .3s;
   padding: 10px 0;
-  margin: 5px auto 0 auto;
-  border-bottom: 3px solid #fff;
-  display: block;
+  border-bottom: 3px solid #000;
   &:hover {
     transform: scale(1.05);
     border-bottom: 3px solid #001AFF;
@@ -146,24 +130,24 @@ a.page-link {
   }
 }
 
+.tagline {
+  max-width: 850px;
+  margin: 0 0 60px 0;
+}
+
 .info {
-  font-size: 1.8em;
-  font-family: $base-font-family;
-  text-align: center;
+  font-family: "eskapade-fraktur";
+  text-align: left;
   line-height: 1.3em;
-  position: relative;
-  top: 20%;
   font-weight: 500;
   margin: 0 auto;
   p {
-    max-width: 500px;
     font-size: .9em;
-    margin: 0 auto 15px auto;
   }
   h2 {
     font-family: $accent-font;
-    font-size: 2.5em;
-    margin-bottom: 50px;
+    font-size: 7em;
+    line-height: .9em;
   }
   @include media-query($on-palm) {
     margin: 60px auto;
@@ -261,29 +245,15 @@ a.page-link {
   top: 7%;
 }
 
-.nav {
-  display: inline-block;
-  font-weight: 400;
-  margin: 25px 0 0 0;
-  font-size: .7em;
+.navigation {
   float: right;
-  ul {
-    margin: 0;
-  }
+  font-family: sans-serif;
   li {
     list-style-type: none;
-    margin: 0 20px;
+    border-bottom: 3px #000 solid;
     display: inline;
-    border-bottom: 3px #fff solid;
-    padding: 5px 0;
-    -webkit-transition: padding .2s, color .2s;
-    transition: padding .2s, color .2s;
-    &:hover {
-      color: #fff;
-      padding: 5px 0 8px 0;
-    }
-    &:first-child {
-      margin-left: 0;
-    }
+    font-size: 1.5em;
+    margin: 0 0 0 25px;
+    padding: 5px;
   }
 }

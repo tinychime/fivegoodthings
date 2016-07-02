@@ -1,3 +1,8 @@
+var input = document.querySelectorAll('input');
+for(i=0; i<input.length; i++){
+    input[i].setAttribute('size',input[i].getAttribute('placeholder').length);
+}
+
 // fade a bunch of stuff out on scroll
 $(window).scroll(function(){
   // $(".info").css("opacity", 1 - $(window).scrollTop() / 600);
