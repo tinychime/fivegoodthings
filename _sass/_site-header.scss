@@ -35,7 +35,7 @@ a.page-link {
 
 .logo {
   max-width: 50px;
-  margin: 0 0 60px 0;
+  margin: 0 0 100px 0;
 }
 
 .home-image {
@@ -65,8 +65,6 @@ a.page-link {
 }
 
 .site-meta {
-  height: 100vh;
-  position: relative;
   z-index: 20;
   @include media-query($on-palm) {
     display: block;
@@ -84,7 +82,6 @@ a.page-link {
     display: inline;
     float: left;
     opacity: 1;
-    font-weight: bold;
     margin-right: 30px;
   }
 }
@@ -101,6 +98,8 @@ a.page-link {
   margin: 0 0 20px 0;
   -webkit-transition: .3s all;
   transition: .3s all;
+  letter-spacing: .02em;
+  min-width: 350px;
   &:focus {
     outline: none;
     border: 3px solid #001AFF;
@@ -111,17 +110,16 @@ a.page-link {
 }
 
 .submit {
+  letter-spacing: .02em;
   font-size: 1.8em;
   border: 0;
-  margin: 7px 0 0 0;
   background: none;
   cursor: pointer;
   -webkit-transition: all .3s;
   transition: all .3s;
-  padding: 10px 0;
   border-bottom: 3px solid #000;
+  padding: .6em 0;
   &:hover {
-    transform: scale(1.05);
     border-bottom: 3px solid #001AFF;
   }
   a {
@@ -131,8 +129,8 @@ a.page-link {
 }
 
 .tagline {
-  max-width: 850px;
-  margin: 0 0 60px 0;
+  margin: 0 0 100px 0;
+  max-width: 1000px;
 }
 
 .info {
@@ -146,8 +144,8 @@ a.page-link {
   }
   h2 {
     font-family: $accent-font;
-    font-size: 7em;
-    line-height: .9em;
+    font-size: 8.5em;
+    line-height: .8em;
   }
   @include media-query($on-palm) {
     margin: 60px auto;
@@ -250,10 +248,19 @@ a.page-link {
   font-family: sans-serif;
   li {
     list-style-type: none;
-    border-bottom: 3px #000 solid;
     display: inline;
     font-size: 1.5em;
     margin: 0 0 0 25px;
-    padding: 5px;
+    a {
+      text-decoration: none;
+      border-bottom: 3px #000 solid;
+      color: #000;
+      padding: 10px 0;
+      -webkit-transition: .2s all;
+      transition: .2s all;
+      &:hover {
+        border-bottom: 3px #001AFF solid;
+      }
+    }
   }
 }

@@ -229,16 +229,49 @@
   padding: 7%;
   margin: 0 0 100px 0;
   color: #fff;
+  h1 {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
   a {
     color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .title {
+    font-family: "eskapade-fraktur";
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0 0 30px 0;
+  }
+  .content {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    .link {
+      border-bottom: 3px #fff solid;
+      padding: 5px;
+    }
+  }
+  .issue {
+    max-width: 46%;
+    float: left;
+    margin-right: 0%;
+    margin-bottom: 0;
+    &:first-of-type {
+      margin-right: 8%;
+    }
   }
 }
 
-.issue {
-  max-width: 46%;
-  float: left;
-  margin-right: 0%;
-  &:first-of-type {
-    margin-right: 8%;
+.readmore {
+  border-bottom: 3px solid #fff;
+  padding: .6em 0;
+  display: inline-block;
+  letter-spacing: .04em;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  &:hover {
+    border-bottom: 3px #001AFF solid;
   }
 }
