@@ -2,6 +2,7 @@
 title:  "Issue 1: Welcome 2 the Dang3rzone"
 byline: "Josh Osborne"
 display-date: "6/19/2016"
+teaser: "Welcome to the first issue. "
 ---
 Hi! Omg you made it!!! This is exciting.
 

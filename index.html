@@ -5,10 +5,8 @@ layout: default
   {% for post in site.posts limit:2 %}
      <div class="issue">
      <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-     <div class="content">{{ post.content | split:'<!--break-->' | first }}</div>
-     {% if post.content contains '<!--break-->' %}
-        <a class="content link bold readmore" href="{{ post.url }}">Read More</a>
-     {% endif %}
+     <div class="content">{{ post.teaser }}</div>
+     <a class="content link bold readmore" href="{{ post.url }}">Read More</a>
      </div>
   {% endfor %}
   <div class="clear"></div>
