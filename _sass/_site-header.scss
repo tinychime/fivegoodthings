@@ -36,6 +36,9 @@ a.page-link {
 .logo {
   max-width: 50px;
   margin: 0 0 100px 0;
+  @include media-query($on-palm) {
+    margin: 0;
+  }
 }
 
 .home-image {
@@ -74,9 +77,8 @@ a.page-link {
 .email {
   margin: 30px 0 20px 0;
   @include media-query($on-palm) {
-    margin: 30px 10px;
-    position: relative;
-    font-size: .8em;
+    margin: 30px auto;
+    font-size: .4em;
   }
   input {
     display: inline;
@@ -100,6 +102,11 @@ a.page-link {
   transition: .3s all;
   letter-spacing: .02em;
   min-width: 350px;
+  @include media-query($on-palm) {
+    width: 92%;
+    min-width: 0;
+    margin: 0 0 10px 0;
+  }
   &:focus {
     outline: none;
     border: 3px solid #001AFF;
@@ -131,12 +138,14 @@ a.page-link {
 .tagline {
   margin: 0 0 100px 0;
   max-width: 1000px;
+  @include media-query($on-palm) {
+    margin: 50px 0 0 0;
+  }
 }
 
 .info {
   font-family: "eskapade-fraktur";
   text-align: left;
-  line-height: 1.3em;
   font-weight: 500;
   margin: 0 auto;
   p {
@@ -146,10 +155,11 @@ a.page-link {
     font-family: $accent-font;
     font-size: 8.5em;
     line-height: .8em;
+    @include media-query($on-palm) {
+      line-height: 1em;
+    }
   }
   @include media-query($on-palm) {
-    margin: 60px auto;
-    max-width: 80%;
     font-size: 2.5em;
     top: 0;
     p {
@@ -251,6 +261,10 @@ a.page-link {
     display: inline;
     font-size: 1.5em;
     margin: 0 0 0 25px;
+    @include media-query($on-palm) {
+      font-size: .5em;
+      margin: 0;
+    }
     a {
       text-decoration: none;
       border-bottom: 3px #000 solid;
@@ -260,7 +274,11 @@ a.page-link {
       transition: .2s all;
       &:hover {
         border-bottom: 3px #001AFF solid;
+        padding: 10px 0 7px 0;
       }
     }
+  }
+  @include media-query($on-palm) {
+    float: none;
   }
 }

@@ -228,6 +228,9 @@
   h1 {
     text-align: center;
     margin: 100px 0 0 0;
+    @include media-query($on-palm) {
+      margin: 0;
+    }
   }
   a {
     color: #fff;
@@ -257,12 +260,18 @@
     &:first-of-type {
       margin-right: 8%;
     }
+    @include media-query($on-palm) {
+      float: none;
+      margin-bottom: 50px;
+      max-width: 100%;
+    }
   }
 }
 
 .readmore {
   border-bottom: 3px solid #fff;
   padding: .6em 0;
+  margin: 10px 0 0 0;
   display: inline-block;
   letter-spacing: .04em;
   -webkit-transition: .2s all;
