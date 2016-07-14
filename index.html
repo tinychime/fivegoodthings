@@ -1,14 +1,30 @@
 ---
 layout: default
 ---
-<div class="issues">
-  {% for post in site.posts limit:2 %}
-     <div class="issue">
-     <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-     <div class="content">{{ post.teaser }}</div>
-     <a class="content link bold readmore" href="{{ post.url }}">Read More</a>
-     </div>
-  {% endfor %}
-  <div class="clear"></div>
-  <h1 class="content link bold readmore"><a href="archive.html">Read The Full Archive &rarr;</a></h1>
+<div class="info">
+  <div class="site-meta">
+    <h2 class="tagline">Five Good Things In Your Inbox Every Sunday.</h2>
+
+    <div class="email">
+      <form action="http://fivegoodthings.createsend.com/t/d/s/ururlj/" method="post" id="subForm">
+        <p><input id="fieldEmail" name="cm-ururlj-ururlj" class="email-input" placeholder="Type Your Email Here Please" type="email" required /></p>
+        <p><button type="submit" class="submit">Subscribe Now &rarr;</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="black-section">
+    <img class="section-icon" src="/images/recentissues.svg">
+    <div class="clear"></div>
+    <div class="issues">
+    {% for post in site.posts limit:3 %}
+       <div class="issue">
+       <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+       <div class="content">{{ post.teaser }}</div>
+       <a class="content link bold readmore" href="{{ post.url }}">Read This One</a>
+       </div>
+    {% endfor %}
+    <div class="clear"></div>
+    <h1 class="content link bold readmore"><a href="archive.html">Read The Full Archive &rarr;</a></h1>
+  </div>
 </div>
