@@ -1,11 +1,11 @@
 <div class="header">
   <a href="index.html"><img class="logo" src="{{ site.baseurl }}/images/tics.svg"></a>
   <div class="navigation">
-    <ul>
-      <li><a href="archive.html">Archive</a></li>
-      <li><a href="#">Values</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="info.html">Info</a></li>
+    <ul id="nav">
+      <li {% if page.url == '/archive.html' %} class="active"{% endif %}><a href="archive.html">Archive</a></li>
+      <li {% if page.url == '/values.html' %} class="active"{% endif %}><a href="values.html">Values</a></li>
+      <li {% if page.url == '/blog.html' %} class="active"{% endif %}><a href="blog.html">Blog</a></li>
+      <li {% if page.url == '/info.html' %} class="active"{% endif %}><a href="info.html">Info</a></li>
     </ul>
   </div>
 </div>

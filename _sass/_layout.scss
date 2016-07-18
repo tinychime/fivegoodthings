@@ -84,39 +84,53 @@
 }
 
 .page-header {
-  font-size: 1.2em;
-  position: fixed;
-  margin: 5% 5% 5% 0;
-  font-weight: 400;
-  max-width: 25%;
-  float: left;
-  @include media-query($on-palm) {
-    float: none;
-    position: relative;
-    max-width: 100%;
+  margin: 70px 0 120px 0;
+  background: #000;
+  color: #fff;
+  padding: 5%;
+  .tagline {
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin: 0 0 50px 0;
+  }
+  .site-meta {
+    margin: 0;
+    padding: 0;
   }
   .submit {
-    font-size: 1em;
-    margin: 0;
-    margin-top: -50px;
-    text-align: center;
-    background: #000;
+    letter-spacing: .02em;
+    font-size: 1.8em;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
     color: #fff;
-    padding: 20px;
-    z-index: 100;
+    border-bottom: 3px solid #fff;
     &:hover {
-      background-color: #001AFF;
+      border-bottom: 3px solid #001AFF;
+    }
+    a {
+      text-decoration: none;
       color: #fff;
-      border-bottom: 0;
-      transform: none;
     }
   }
   .email {
     margin-bottom: 0;
     max-width: 100%;
-    font-size: 1.3em;
+    font-size: .6em;
     @include media-query($on-palm) {
       margin: 50px 0;
+    }
+    .email-input {
+      color: #fff;
+      background-color: #000;
+      border-color: #fff;
+    }
+    p {
+      margin: 0;
+      padding: 0;
     }
   }
   a {
@@ -128,62 +142,13 @@
   }
 }
 
-.page-body {
-  max-width: 60%;
-  margin: 100px 0 0 0;
-  padding: 7%;
-  @include media-query($on-palm) {
-    max-width: 100%;
-    margin: 5%;
-  }
-  ul {
-    list-style-type: none;
-    // li {
-    //   margin: 0 0 5px 0;
-    //   font-size: 1.2em;
-    //   line-height: 1.6em;
-    //   font-weight: 400;
-    //   letter-spacing: .01em;
-    // }
-  }
-  .title {
-    font-size: 2.5em;
-    line-height: 1.1em;
-    margin-bottom: 40px;
-    font-family: "eskapade-fraktur";
-  }
-  .content {
-    font-size: .9em;
-    line-height: 1.6em;
-    font-weight: 400;
-    letter-spacing: .01em;
-    a {
-      color: #001AFF;
-    }
-  }
-  .meta {
-    margin: 0 0 20px 0;
-    font-size: 1.1em;
-    font-weight: 500;
-  }
-  h3 {
-    font-weight: 600;
-    font-size: 1.3em;
-    margin-top: 60px;
-  }
-  h1 {
-    font-size: 3em;
-    font-weight: bold;
-  }
-}
-
 .page-wrapper {
   padding: 5% 7% 7% 7%;
 }
 
 .section-icon {
   width: 125px;
-  margin: 10px auto 100px auto;
+  margin: 10px auto 70px 0;
   display: block;
   -webkit-animation-name: spin;
   -webkit-animation-duration: 15000ms;

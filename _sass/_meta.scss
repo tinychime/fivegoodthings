@@ -1,0 +1,16 @@
+.meta {
+  width: 20%;
+  margin-left: 6%;
+  float: right;
+  font-weight: 500;
+  p {
+    &:first-of-type {
+      margin-top: 10px;
+      padding-top: 0;
+    }
+  }
+}
+
+.meta-title {
+  font-size: .8em;
+}
