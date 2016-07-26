@@ -6,8 +6,10 @@ a.page-link {
   display: block;
 }
 
-#nav .active{
-  border-bottom:2px solid #bada55;
+#nav .active {
+  border-bottom: 3px solid #001AFF;
+  color: #001aFF;
+  padding: 10px 0 5px 0;
 }
 
 .site-nav {
@@ -280,7 +282,7 @@ a.page-link {
       transition: .2s all;
       &:hover {
         border-bottom: 3px #001AFF solid;
-        padding: 10px 0 7px 0;
+        padding: 10px 0 5px 0;
       }
     }
   }

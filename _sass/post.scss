@@ -1,0 +1,36 @@
+.post-wrapper {
+  margin: 20% 7%;
+}
+
+.single {
+  max-width: 65%;
+  float: left;
+  .meta {
+    width: 15%;
+    // float: right;
+    // font-weight: 500;
+    // .share {
+    //   display: unset;
+    // }
+    p {
+      border-bottom: #000 solid 3px;
+      padding-bottom: 35px;
+      &:last-of-type {
+        border: none;
+      }
+      &:first-of-type {
+        margin-top: 10px;
+        padding-top: 0;
+      }
+    }
+  }
+  .meta-title {
+    font-size: .8em;
+  }
+  .post-title {
+    font-family: "eskapade-fraktur";
+    font-size: 5em;
+    line-height: 1em;
+    margin: 0 0 30px 0;
+  }
+}

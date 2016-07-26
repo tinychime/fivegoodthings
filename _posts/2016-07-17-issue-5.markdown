@@ -1,7 +1,10 @@
 ---
 title:  "Issue 5: Five Good Weeks​"
 byline: "Josh Osborne"
+author-link: "http://www.twitter.com/joshosbrn"
 display-date: "7/17/2016"
+teaser: "Mitski's amazing new record <em>Puberty 2</em>, a story about Denny's & family back home, tiny improv comedy and free rap music. Mitski's amazing new record <em>Puberty 2</em>. Another few words to fill out this space."
+layout: post
 ---
 Happy Five Week Anniversary!!! My gift to you is this email. The only thing I ask in return is that you forward this on to someone who might enjoy it.
 
