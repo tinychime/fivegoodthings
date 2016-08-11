@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="info">
   <div class="site-meta">
-    <h2 class="tagline">Five Good Things In Your Inbox Every Sunday.</h2>
+    <h2 class="tagline">Five Good Things</h2>
+    <p class="description">Email sunday on the sunday of the email time it's going to be a very good email and you will like it ok? Cool please enjoy this okie? It's my job and I want 2 make my parents proud.</p>
 
     <div class="email">
       <form action="http://fivegoodthings.createsend.com/t/d/s/ururlj/" method="post" id="subForm">
@@ -25,6 +26,16 @@ layout: default
        </div>
     {% endfor %}
     <div class="clear"></div>
-    <h1 class="content link bold readmore"><a href="archive.html">Read The Full Archive &rarr;</a></h1>
   </div>
+  <div class="issues">
+  {% for post in site.posts limit:3 offset:3 %}
+     <div class="issue">
+     <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+     <div class="content">{{ post.teaser }}</div>
+     <a class="content link bold readmore" href="{{ post.url }}">Read This One</a>
+     </div>
+  {% endfor %}
+  <div class="clear"></div>
+  <h1 class="content link bold readmore"><a href="archive.html">Read The Full Archive &rarr;</a></h1>
+</div>
 </div>

@@ -5,6 +5,7 @@
 }
 
 .issue {
+  margin: 0 0 100px 0;
 }
 
 .black-section {
@@ -12,6 +13,7 @@
   padding: 7%;
   margin: 0 0 100px 0;
   color: #fff;
+  // text-align: center;
   h1 {
     text-align: center;
     @include media-query($on-palm) {
@@ -33,6 +35,7 @@
   .content {
     font-size: 1.1em;
     line-height: 1.5em;
+    font-weight: 400;
     .link {
       border-bottom: 3px #fff solid;
       padding: 5px;
@@ -63,17 +66,27 @@
   letter-spacing: .04em;
   -webkit-transition: .2s all;
   transition: .2s all;
+  a {
+    font-weight: 700;
+  }
   &:hover {
     border-bottom: 3px #001AFF solid;
   }
 }
 
 .issue-wrapper {
-  width: 68%;
+  width: 70%;
+  margin-right: 5%;
   float: left;
+  a {
+    color: #000;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
-.page-body {
+.page-body, .archive {
   max-width: 100%;
   margin: 100px 0 0 0;
   padding: 7%;
@@ -92,16 +105,25 @@
     // }
   }
   .title {
-    font-size: 2.5em;
-    line-height: 1.1em;
-    margin-bottom: 40px;
+    font-size: 3em;
+    line-height: .9em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: .03em;
     font-family: "eskapade-fraktur";
+    a {
+      color: #000;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   .content {
     font-size: .9em;
     line-height: 1.6em;
     font-weight: 400;
     letter-spacing: .01em;
+    margin: 40px 0 25px 0;
     a {
       color: #001AFF;
     }
@@ -119,7 +141,7 @@
 
 .section-icon {
   width: 125px;
-  margin: 10px auto 70px 0;
+  margin: 40px auto 100px auto;
   display: block;
   -webkit-animation-name: spin;
   -webkit-animation-duration: 15000ms;

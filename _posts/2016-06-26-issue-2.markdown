@@ -21,7 +21,7 @@ Last week I started drafting a list of values for myself and my contributors to 
 
 Our Code of Conduct will change in big and small ways over time. I’ll make sure to keep y’all updated with any important changes. For small ones, make sure to follow @five_goodthings on Twitter. For now, our Code of Conduct will live on the Five Good Things Github Page. This is a place where I manage and track the development of [fivegoodthings.club](http://fivegoodthings.club "the Five Good Things website"), and is version controlled so a running list of changes with corresponding version numbers is included by design.
 
-[Check out the Code of Conduct our Github Page](https://github.com/tinychime/fivegoodthings/blob/master/values.md "our draft code of conduct on Github")
+[Check out the Code of Conduct our Github Page](https://github.com/tinychime/fivegoodthings/blob/master/values.md "our draft code of conduct on Github")<!-- more -->
 
 
 ### 2. Sad Music ♬

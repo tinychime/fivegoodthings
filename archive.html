@@ -1,32 +1,36 @@
 ---
 layout: page
 ---
-<div class="page-body">
+<div class="archive">
     <ul class="">
       {% for post in site.posts %}
         <li class="issue">
           <div class="issue-wrapper">
-            <div class="title"><span class="bold">{{ post.title }}</span></div>
-            <div class="content">
-              {{ post.content }}
+            <a href="{{ post.url }}">
+              <div class="title">{{ post.title }}</div>
+              <div class="content">
+                {{ post.teaser }}
+              </div>
+            </a>
+            <div class="short-meta">
+              Sent on {{ post.display-date }} &nbsp; / &nbsp; Written by <a href="{{ post.author-link }}">{{ post.byline }}</a>
             </div>
           </div>
-          {% include meta.html %}
           <div class="clear"></div>
         </li>
-        <div class="page-header">
-          <div class="site-meta">
-            <h2 class="tagline">Did you miss an issue of Five Good Things? This is a true embarassment and a reflection on you and your institutions. Sign up <em>now</em> so this doesn't happen again.</h2>
-
-            <div class="email">
-              <form action="http://fivegoodthings.createsend.com/t/d/s/ururlj/" method="post" id="subForm">
-                <p><input id="fieldEmail" name="cm-ururlj-ururlj" class="email-input" placeholder="Type Your Email Here Please" type="email" required /></p>
-                <p><button type="submit" class="submit">Subscribe Now &rarr;</button></p>
-              </form>
-            </div>
-          </div>
-        </div>
       {% endfor %}
     </ul>
+    <div class="page-header">
+      <div class="site-meta">
+        <h2 class="tagline">Did you miss an issue of Five Good Things? This is a true embarassment and a reflection on you and your institutions. Sign up <em>now</em> so this doesn't happen again.</h2>
+
+        <div class="email">
+          <form action="http://fivegoodthings.createsend.com/t/d/s/ururlj/" method="post" id="subForm">
+            <p><input id="fieldEmail" name="cm-ururlj-ururlj" class="email-input" placeholder="Type Your Email Here Please" type="email" required /></p>
+            <p><button type="submit" class="submit">Subscribe Now &rarr;</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
 </div>
 <div class="clear"></div>
