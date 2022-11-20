@@ -2,7 +2,7 @@
 title: Five Good Things
 email:
 description:
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "fivegoodthings" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # Build settings
